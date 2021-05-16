@@ -12,3 +12,13 @@ export {
   getProfileById,
   getGithubRepos,
 } from './profile';
+export {
+  getPost,
+  getPosts,
+  addComment,
+  addLike,
+  addPost,
+  deleteComment,
+  deletePost,
+  removeLike,
+} from './post';
